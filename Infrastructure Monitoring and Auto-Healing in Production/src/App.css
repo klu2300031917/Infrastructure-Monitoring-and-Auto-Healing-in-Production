@@ -1,0 +1,43 @@
+.app {
+  text-align: center;
+  font-family: Arial;
+  background: #f4f6f9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.status {
+  font-size: 22px;
+  color: green;
+}
+
+.logs {
+  width: 60%;
+  margin: auto;
+  height: 200px;
+  overflow-y: auto;
+  background: black;
+  color: #00ff9c;
+  padding: 10px;
+  text-align: left;
+  font-family: monospace;
+}
